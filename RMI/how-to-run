@@ -1,29 +1,18 @@
-# Adding integers using RMI
+How to run the file?
 
 - Open terminal (or cmd) and move to the directory containing these files
-
-```
-cd JavaPrograms/RMI
-```
+        cd JavaPrograms/RMI
 
 - Compile all files 
-```
-javac *.java
-```
+        javac *.java
 
 - Run the following commands
-```
-rmic AdderRemote
-rmiregistry 1234
-```
+        rmic AdderRemote
+        rmiregistry 1234
 
 - Open second terminal window and start server
-```
-java Server
-```
-
+        java Server
 
 - Open third terminal window and start client
-```
-java Client
-```
+        java Client
+
