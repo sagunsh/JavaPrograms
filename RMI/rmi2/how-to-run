@@ -1,13 +1,13 @@
 How to run the program?
 
 - Open terminal (or cmd) and move to the directory containing these files
-        cd JavaPrograms/RMI
+        cd JavaPrograms/RMI/rmi2
 
 - Compile all files 
         javac *.java
 
 - Run the following commands
-        rmic AdderRemote
+        rmic OperationRemote
         rmiregistry 1234
 
 - Open second terminal window and start server
